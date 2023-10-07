@@ -1,0 +1,117 @@
+
+@media (max-width: 1440px){
+    .retangulo1{
+        margin-top: 300px;
+
+    }
+}
+
+@media (max-width: 1366px){
+    .retangulo1{
+        margin: 0 auto;
+        margin-top: 130px;
+
+    }
+}
+
+@media (max-width: 1280px){
+    .retangulo1{
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 375px){
+    .retangulo1{
+
+        margin-top: auto;
+        border-radius: 0%;
+        width: auto;
+        height: 860px;
+
+    }
+
+    .retangulo2{
+        width: 375px;
+        height: 380px;
+        border-radius: 0px 0px 39px 39px;
+    }
+
+    .texto2{
+        margin: 0 auto;
+        margin-left: 53px;
+        height: 365px;
+    }
+
+    .prf3{
+        font-size: 20px;
+    }
+
+    .prf4{
+        font-size: 25px;
+        line-height: 90%;
+        margin: auto;
+        margin-top: 185px;
+    }
+
+    .prf5{
+        font-size: 15px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .circulo{
+        width: 150px;
+        height: 150px;
+        margin-top: 90px;
+    }
+
+    .texto1{
+        width: 150px;
+        height: 150px;
+    }
+
+    .prf1{
+        font-size: 50px;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .prf2{
+        font-size: 15px;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    .prf19{
+
+        margin-left: 45px;
+        margin-top: 410px;
+        font-size: 20px;
+    }
+
+    .bar1 {
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+
+    .bar2 {
+        margin-left: 45px;
+        margin-top: 15px;
+    }
+
+    .bar3 {
+        margin-left: 45px;
+        margin-top: 15px;
+    }
+
+    .bar4 {
+        margin-left: 45px;
+        margin-top: 15px;
+    }
+
+    .bar5 {
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+}

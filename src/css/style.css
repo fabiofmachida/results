@@ -1,0 +1,323 @@
+body{
+    background:#f4f5f8;
+}
+
+main::after{
+    margin: 0 auto; /* Para centralizar o corpo horizontalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*não funcionou pq tem q ter um espaço entre os elementos*/
+    min-height: 100vh; /*agora o justifu-content funciona*/
+    position: relative;
+}
+
+.retangulo1{
+    width: 735px;
+    height: 512px;
+    border-radius: 39px;
+    background: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 245px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;   
+}
+
+.retangulo2{
+    width: 368px;
+    height: 512px;
+    border-radius: 39px;
+    background: #4b36ef;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;   
+}
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: rgb(52,44,185);
+    background: linear-gradient(180deg, rgba(52,44,185,1) 0%, rgba(75,54,239,0) 100%);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 105px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.texto1{
+    width: 200px;
+    height: 200px;
+}
+
+.prf1{
+    color: white;
+    text-align: center;
+    margin-top: 65px;
+    font-size: 70px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 800;
+    line-height: 50px;
+    font: bold;
+}
+
+.prf2{
+    color: #92a9ce;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 19px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+}
+
+.texto2{
+    width: 270px;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 47px;
+}
+
+.prf3{
+    color: #92a9ce;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+    line-height: 50px;
+    font: bold;
+}
+
+.prf4{
+    color: white;
+    margin-top: 245px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.prf5{
+    color: #92a9ce;
+    margin-top: 9px;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+}
+
+.prf19{
+    margin-left: 410px;
+    margin-top: 45px;
+    font-size: 25px;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.bar1{
+    background:  hsl(0, 14%, 95%);
+    width: 280px;
+    height: 56px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 410px;
+    margin-top: 29px;
+}
+
+.prf6{
+    margin-top: 19px;
+    margin-left: 50px;
+    color: hsl(0, 100%, 67%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+.imagem{
+    position: relative;
+    bottom: 20px;
+    margin-left: 19px;
+}
+
+.prf7{
+    position: relative;
+    bottom: 27px;
+    text-align:right;
+    margin-right: 70px;
+    color: #333c5a;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.prf8{
+    color: #5c7baeb9;
+    position: relative;
+    bottom: 50px;
+    text-align:right;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif; 
+}
+
+.bar2{
+    background: hsl(38, 76%, 94%);
+    width: 280px;
+    height: 56px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 410px;
+    margin-top: 15px;
+}
+
+.prf9{
+    margin-top: 19px;
+    margin-left: 50px;
+    color: hsl(39, 100%, 56%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+.imagem2{
+    position: relative;
+    bottom: 20px;
+    margin-left: 19px;
+}
+
+.prf10{
+    position: relative;
+    bottom: 27px;
+    text-align:right;
+    margin-right: 70px;
+    color: #333c5a;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.prf11{
+    color: #5c7baeb9;
+    position: relative;
+    bottom: 50px;
+    text-align:right;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif; 
+}
+
+.bar3{
+    background: hsl(166, 94%, 82%);
+    width: 280px;
+    height: 56px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 410px;
+    margin-top: 15px;
+}
+
+.prf12{
+    margin-top: 19px;
+    margin-left: 50px;
+    color: hsl(166, 100%, 37%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+.imagem3{
+    position: relative;
+    bottom: 20px;
+    margin-left: 19px;
+}
+
+.prf13{
+    position: relative;
+    bottom: 27px;
+    text-align:right;
+    margin-right: 70px;
+    color: #333c5a;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.prf14{
+    color: #5c7baeb9;
+    position: relative;
+    bottom: 50px;
+    text-align:right;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif; 
+}
+
+.bar4{
+    background: hsl(233, 40%, 96%);
+    width: 280px;
+    height: 56px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 410px;
+    margin-top: 15px;
+}
+
+.prf15{
+    margin-top: 19px;
+    margin-left: 50px;
+    color: hsl(234, 85%, 45%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+.imagem4{
+    position: relative;
+    bottom: 20px;
+    margin-left: 19px;
+}
+
+.prf16{
+    position: relative;
+    bottom: 27px;
+    text-align:right;
+    margin-right: 70px;
+    color: #333c5a;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.prf17{
+    color: #5c7baeb9;
+    position: relative;
+    bottom: 50px;
+    text-align:right;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif; 
+}
+
+.bar5{
+    background: #333c5a;
+    width: 280px;
+    height: 56px;
+    border-radius: 50px;
+    position: relative;
+    margin-left: 410px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.prf18{
+    margin-top: 15px;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
